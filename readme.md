@@ -8,8 +8,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
-* [Contact](#contact)
+* [App Info](#app-info)
+
 
 ## Description
 Expensify Application is a serverless application built with React for front-end and Firebase by Google for backend services.
@@ -22,8 +22,20 @@ Here is a working live demo : [expensify](https://expensify-app-2021.firebaseapp
 
 ## Screenshots
 
+### Index
+
+![index](https://user-images.githubusercontent.com/31744209/102399286-7e167000-3ff1-11eb-924f-a26a4a665aae.png)
 
 
+### View Expenses
+![expenses](https://user-images.githubusercontent.com/31744209/102399302-82428d80-3ff1-11eb-953d-314170495fad.png)
+
+### Add Expense
+![add-expensify](https://user-images.githubusercontent.com/31744209/102399297-81116080-3ff1-11eb-88d2-2aceaba00846.png)
+
+
+### Edit Expense
+![edit-expense](https://user-images.githubusercontent.com/31744209/102399300-81a9f700-3ff1-11eb-8fae-ccf02395250d.png)
 
 ## Technologies
 * Technologies used:
@@ -105,10 +117,39 @@ After running a build 👆, run the following script...
 npm run start
 ```
 
-### Deploy to Firebase
-To deploy the build to firebase run the following scripts...
+### Deploy to Heroku 
+To deploy the build to Heroku run the following script...
 
 ```bash
-firebase init
+npm run heroku-postbuild
 ```
-This initializes the project with firebase.
+
+
+
+## Features
+List of features:
+* Create expense
+* View expenses
+* Update expense
+* Search expenses
+* Filter expenses by Date, amount
+* Sort expenses
+* Google Authentication
+
+
+
+## App Info
+
+### Author
+
+James Mogambi
+[James Mogambi](https://github.com/jamesmogambi)
+
+### Version
+
+2.0.0
+
+### License
+
+This project is licensed under the MIT License
+

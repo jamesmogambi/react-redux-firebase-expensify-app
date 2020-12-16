@@ -13,6 +13,7 @@
 
 ## Description
 Expensify Application is a serverless application built with React for front-end and Firebase by Google for backend services.
+This is an adaptation from an online course that I took on Udemy.com. 
 Expensify implements Google Authentication thus allowing users to sign in with their valid google accounts.
 
 
